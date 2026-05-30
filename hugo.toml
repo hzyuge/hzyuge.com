@@ -1,0 +1,40 @@
+baseURL = 'https://hzyuge.com/'
+languageCode = 'zh-cn'
+title = 'HZYUGE Cycling Blog'
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  description = 'Outdoor cycling adventures and family rides'
+  author = 'HZYUGE'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowToc = false
+
+  [params.homeInfoParams]
+    Title = 'Welcome to HZYUGE'
+    Content = 'Exploring the world on two wheels. Family rides, trail adventures, and everything cycling.'
+
+  [params.profileMode]
+    enabled = false
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Posts'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    url = '/tags/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    url = '/about/'
+    weight = 30
