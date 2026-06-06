@@ -299,8 +299,8 @@ function viewArticle(slug) {
                 <div class="ad-label">Advertisement</div>
                 <ins class="adsbygoogle"
                      style="display:block"
-                     data-ad-client="ca-pub-替换为你的ID"
-                     data-ad-slot="替换为你的广告位ID"
+                     data-ad-client="ca-pub-2958320523040643"
+                     data-ad-slot="6909660918"
                      data-ad-format="auto"
                      data-full-width-responsive="true"></ins>
                 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
