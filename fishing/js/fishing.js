@@ -8,68 +8,7 @@ const ADSENSE_CLIENT = 'ca-pub-2958320523040643';
 const ADSENSE_SLOT = '6909660918';
 
 // ===== Article Data =====
-const fishingArticles = [
-    {
-        id: 'first-bass-catch',
-        file: 'articles/my-first-bass-catch-a-beginners-story.html',
-        title: 'My First Bass Catch: A Beginner\'s Story',
-        excerpt: 'The line went tight, the rod bent double, and my heart nearly exploded. Here\'s how my first bass catch changed everything I thought I knew about fishing.',
-        category: 'Stories',
-        date: '2026-05-28',
-        readTime: '7 min',
-        image: 'https://images.unsplash.com/photo-1544550581-8c3c4c3c3c3c?w=600&q=80'
-    },
-    {
-        id: 'freshwater-spots',
-        file: 'articles/best-freshwater-fishing-spots-near-me.html',
-        title: 'Best Freshwater Fishing Spots: Hidden Gems Within 2 Hours',
-        excerpt: 'Tired of crowded fishing piers? I spent three months exploring off-the-beaten-path lakes and rivers. Here are 5 spots that most anglers overlook.',
-        category: 'Spots',
-        date: '2026-05-25',
-        readTime: '9 min',
-        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80'
-    },
-    {
-        id: 'essential-gear-2026',
-        file: 'articles/essential-fishing-gear-for-beginners-2026.html',
-        title: 'Essential Fishing Gear for Beginners: Don\'t Waste Money on Fancy Stuff',
-        excerpt: 'Walk into any tackle shop and you\'ll drown in options. After years of trial and error, here\'s the minimum gear that actually catches fish — without breaking the bank.',
-        category: 'Gear',
-        date: '2026-05-22',
-        readTime: '8 min',
-        image: 'https://images.unsplash.com/photo-1471104113180-1e5f8d8c8f7e?w=600&q=80'
-    },
-    {
-        id: 'fly-vs-spinning',
-        file: 'articles/fly-fishing-vs-spinning-which-is-right-for-you.html',
-        title: 'Fly Fishing vs Spinning: Which One Should You Start With?',
-        excerpt: 'Two completely different worlds. One is zen-like and artful. The other is practical and deadly effective. After doing both for years, here\'s my honest comparison.',
-        category: 'Guides',
-        date: '2026-05-20',
-        readTime: '10 min',
-        image: 'https://images.unsplash.com/photo-1494949649109-ecfc3b8c35df?w=600&q=80'
-    },
-    {
-        id: 'night-fishing-tips',
-        file: 'articles/night-fishing-tips-what-i-learned-the-hard-way.html',
-        title: 'Night Fishing Tips: What I Learned the Hard Way',
-        excerpt: 'Fishing in the dark is a completely different game. The fish behave differently. The gear needs are different. And the mistakes? They\'re way more expensive.',
-        category: 'Tips',
-        date: '2026-05-18',
-        readTime: '7 min',
-        image: 'https://images.unsplash.com/photo-1476041800959-2f6bb412c8ce?w=600&q=80'
-    },
-    {
-        id: 'choose-fishing-rod',
-        file: 'articles/how-to-choose-the-right-fishing-rod.html',
-        title: 'How to Choose the Right Fishing Rod (Without Overthinking It)',
-        excerpt: 'Length, power, action, material — the terminology is dizzying. But picking the right rod is simpler than most people think. Here\'s my no-BS guide.',
-        category: 'Gear',
-        date: '2026-05-15',
-        readTime: '8 min',
-        image: 'https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=600&q=80'
-    }
-];
+const fishingArticles = [];
 
 // ===== Render Article List (Homepage) =====
 function renderArticleList() {
